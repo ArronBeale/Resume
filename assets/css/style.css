@@ -34,7 +34,7 @@ header {
 }
 
 .logo {
-    background: url(../images/image-profile.jpg);
+    background: url(https://raw.githubusercontent.com/ArronBeale/Resume/main/assets/images/image-profile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
