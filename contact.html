@@ -16,6 +16,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/ArronBeale/Resume/blob/main/apple-touch-icon.png?raw=true">
     <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/ArronBeale/Resume/blob/main/favicon-32x32.png?raw=true">
     <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/ArronBeale/Resume/blob/main/favicon-16x16.png?raw=true">
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <title>Arron Beale | Contact</title>
 </head>
 
@@ -61,13 +63,13 @@
                 <h5 class="uppercase text-center">Let's work together!</h5>
 
                 <div class="center-form">
-                    <form>
+                    <form id="contact-form">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
                         <input type="email" name="name" id="emailaddress" class="form-control" placeholder="Email" required/>
                         <textarea class="form-control" name="projectsummary" id="projectsummary" cols="30" rows="5" placeholder="Project description" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                <button type="submit" id="submit" class="btn btn-secondary">Send Project Request</button>
                             </div>
                         </div>
                     </form>
@@ -125,6 +127,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/f561b9867c.js" crossorigin="anonymous"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>
