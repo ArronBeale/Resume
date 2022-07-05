@@ -184,12 +184,13 @@
             </div>
         </div>
     </footer>
-    <script
-        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmiVrTSM10-28Ra1FQ7hS-LkmH-B2F0QI=initMap">
-    </script>
+
+    <!--
+    this link below is copied from tutorial Marker Clustering from Google API page
+    https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-html 
+    defer - helps with loading times if the script is placed in the head element
+    -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmiVrTSM10-28Ra1FQ7hS-LkmH-B2F0QI&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
     <script src="https://kit.fontawesome.com/f561b9867c.js" crossorigin="anonymous"></script>
 </body>
